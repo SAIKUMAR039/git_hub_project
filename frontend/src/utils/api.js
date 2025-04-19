@@ -1,7 +1,8 @@
 import axios from "axios";
 
 // Use environment variables to set API URL based on environment
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000/api";
+const API_URL =
+  import.meta.env.VITE_API_URL || "https://git-hub-project.onrender.com/api";
 
 // Create axios instance with base URL
 const api = axios.create({
